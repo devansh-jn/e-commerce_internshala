@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/150" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <h5 class="card-title">Product Name</h5>
+                <p class="card-text">Price: $10</p>
+                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <form>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                      <span class="fas fa-minus"></span>
+                    </button>
+                  </span>
+                  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                      <span class="fas fa-plus"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/150" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body">
+                <h5 class="card-title">Product Name</h5>
+                <p class="card-text">Price: $20</p>
+                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <form>
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[2]">
+                      <span class="fas fa-minus"></span>
+                    </button>
+                  </span>
+                  <input type="text" name="quant[2]" class="form-control input-number" value="1" min="1" max="10">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[2]">
+                      <span class="fas fa-plus"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">Summary</div>
+          <div class="card-body">
+            <p>Total Price: $30</p>
+            <p>Shipping: $5</p>
+            <hr>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
